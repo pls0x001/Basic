@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import 'src/assets/styles/App.css'
 
-const WorkspacePage = () => {
+const Blog = () => {
   const [count, setCount] = useState(0);
   const [droppedImageSrc, setDroppedImageSrc] = useState(null);
 
@@ -11,8 +10,9 @@ const WorkspacePage = () => {
 
   return (
     <div>
+      blog
     </div>
   )
 }
 
-export default WorkspacePage
+export default Blog
